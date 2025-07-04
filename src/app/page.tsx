@@ -13,6 +13,7 @@ import { TextHoverEffectDemo } from "@/app/components/TextHoverEffectDemo";
 import { CardSpotlightDemo } from "@/app/components/CardSpotlightDemo";
 import { FloatingDockDemo } from "@/app/components/FloatingDockDemo";
 import { GridBackgroundDemo } from "@/app/components/GridBackgroundDemo";
+import { SidebarDemo } from "@/app/components/SidebarDemo";
 
 export default function Home() {
   return (
@@ -49,6 +50,13 @@ export default function Home() {
             Grid background
           </h2>
           <GridBackgroundDemo />
+        </section>
+
+        <section className="text-center">
+          <h2 className="text-3xl font-bold text-white mb-4">
+            Sidebar
+          </h2>
+          <SidebarDemo />
         </section>
       </main>
     </div>
