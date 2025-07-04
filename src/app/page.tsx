@@ -16,6 +16,7 @@ import { GridBackgroundDemo } from "@/app/components/GridBackgroundDemo";
 import { SidebarDemo } from "@/app/components/SidebarDemo";
 import { StickyScrollRevealDemo } from "@/app/components/StickyScrollRevealDemo";
 import { TextGenerateEffectDemo } from "@/app/components/TextGenerateEffectDemo";
+import { AppleCardsCarouselDemo } from "@/app/components/AppleCardsCarouselDemo";
 
 export default function Home() {
   return (
@@ -74,6 +75,14 @@ export default function Home() {
           </h2>
           <TextGenerateEffectDemo />
         </section>
+
+        <section className="text-center">
+          <h2 className="text-3xl font-bold text-white mb-4">
+            Apple card carousel
+          </h2>
+          <AppleCardsCarouselDemo />
+        </section>
+
       </main>
     </div>
   );
