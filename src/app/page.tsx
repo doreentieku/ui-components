@@ -12,13 +12,16 @@ const DraggableCardDemo = dynamic(
 import { TextHoverEffectDemo } from "@/app/components/TextHoverEffectDemo";
 import { CardSpotlightDemo } from "@/app/components/CardSpotlightDemo";
 import { FloatingDockDemo } from "@/app/components/FloatingDockDemo";
+import { GridBackgroundDemo } from "@/app/components/GridBackgroundDemo";
 
 export default function Home() {
   return (
     <div className="pb-20">
       <main className="min-h-screen space-y-16">
         <section className="text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">Text Hover Effect</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">
+            Text Hover Effect
+          </h2>
           <TextHoverEffectDemo />
         </section>
 
@@ -40,8 +43,14 @@ export default function Home() {
             <FloatingDockDemo />
           </div>
         </section>
+
+        <section className="text-center">
+          <h2 className="text-3xl font-bold text-white mb-4">
+            Grid background
+          </h2>
+          <GridBackgroundDemo />
+        </section>
       </main>
     </div>
   );
 }
-
