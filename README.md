@@ -1,4 +1,4 @@
-## UI components with Next.js and Tailwind CSS from Aceternity UI
+## UI components with Next.js and Tailwind CSS from Aceternity UI and GSAP
 
 1. **Clone the repository**
 ```bash

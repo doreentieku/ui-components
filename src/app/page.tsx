@@ -17,6 +17,7 @@ import { SidebarDemo } from "@/app/components/SidebarDemo";
 import { StickyScrollRevealDemo } from "@/app/components/StickyScrollRevealDemo";
 import { TextGenerateEffectDemo } from "@/app/components/TextGenerateEffectDemo";
 import { AppleCardsCarouselDemo } from "@/app/components/AppleCardsCarouselDemo";
+import HorizontalScroll from "@/app/components/HorizontalScroll";
 
 export default function Home() {
   return (
@@ -81,6 +82,13 @@ export default function Home() {
             Apple card carousel
           </h2>
           <AppleCardsCarouselDemo />
+        </section>
+
+        <section className="text-center">
+          <h2 className="text-3xl font-bold text-white mb-4">
+            Horizontal Scroll
+          </h2>
+          <HorizontalScroll />
         </section>
 
       </main>
